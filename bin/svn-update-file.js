@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const svnUltimate = require('node-svn-ultimate');
 const fs = require('fs');
 const ncp = require('ncp').ncp;

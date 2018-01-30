@@ -1,6 +1,6 @@
 {
   "name": "svn-update-file",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "description": "Merge and commit all files in the folder via a command.",
   "main": "index.js",
   "scripts": {
@@ -20,9 +20,9 @@
     "url": "https://github.com/echoyoung46/svn-update-file/issues"
   },
   "homepage": "https://github.com/echoyoung46/svn-update-file#readme",
-  "devDependencies": {
-		"ncp": "^2.0.0",
-		"node-svn-ultimate": "^1.1.0"
+  "dependencies": {
+    "ncp": "^2.0.0",
+    "node-svn-ultimate": "^1.1.0"
   },
   "bin": {
     "svn-update-file": "./bin/svn-update-file.js",
