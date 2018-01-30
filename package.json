@@ -1,7 +1,7 @@
 {
   "name": "svn-update-file",
-  "version": "0.0.1",
-  "description": "svn add and commit file via cmd.",
+  "version": "0.0.2",
+  "description": "Merge and commit all files in the folder via a command.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
