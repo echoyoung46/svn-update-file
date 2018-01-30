@@ -1,6 +1,6 @@
 {
   "name": "svn-update-file",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Merge and commit all files in the folder via a command.",
   "main": "index.js",
   "scripts": {
@@ -23,5 +23,9 @@
   "devDependencies": {
 		"ncp": "^2.0.0",
 		"node-svn-ultimate": "^1.1.0"
-	}
+  },
+  "bin": {
+    "svn-update-file": "./bin/svn-update-file.js",
+    "suf": "./bin/svn-update-file.js"
+  }
 }

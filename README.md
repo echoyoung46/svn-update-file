@@ -15,5 +15,9 @@ $ npm install svn-update-file -g
 ```bash
 $ svn-update-file [svn-path]
 ```
+or
+```bash
+$ suf [svn-path]
+```
 
 Enter the command above in a folder, then all files in the folder will be committed to the remote  repository.
