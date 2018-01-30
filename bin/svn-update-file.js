@@ -4,7 +4,7 @@ const svnUltimate = require('node-svn-ultimate');
 const fs = require('fs');
 const ncp = require('ncp').ncp;
 
-const param = process.argv[1];
+const param = process.argv[2];
 const svnUrl = param ? param : '';
 const folderPath = './checkout';
 
@@ -18,6 +18,7 @@ function SVNUpdateFile() {
 SVNUpdateFile.prototype = {
   init: () => {
     this.svnUrl = svnUrl;
+    console.log('checkout ' + this.svnUrl);
     svnUltimate.commands.checkout(this.svnUrl, folderPath, {}, () => SVNUpdateFile.prototype.mergeFile());
   },
   mergeFile: () => {

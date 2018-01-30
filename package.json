@@ -1,6 +1,6 @@
 {
   "name": "svn-update-file",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Merge and commit all files in the folder via a command.",
   "main": "index.js",
   "scripts": {
