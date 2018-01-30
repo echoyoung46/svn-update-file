@@ -1,0 +1,27 @@
+{
+  "name": "svn-update-file",
+  "version": "0.0.1",
+  "description": "svn add and commit file via cmd.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/echoyoung46/svn-update-file.git"
+  },
+  "keywords": [
+    "svn",
+    "node"
+  ],
+  "author": "echoyoung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/echoyoung46/svn-update-file/issues"
+  },
+  "homepage": "https://github.com/echoyoung46/svn-update-file#readme",
+  "devDependencies": {
+		"ncp": "^2.0.0",
+		"node-svn-ultimate": "^1.1.0"
+	}
+}
